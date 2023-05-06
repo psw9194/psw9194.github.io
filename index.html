@@ -6,28 +6,33 @@
             table, tr, th, td {
                 border: solid 1px black;
                 border-collapse: collapse;
-                padding: 8px;
+                padding: 8px; text-align: center;
             }
+            #hcolor {background-color: bisque;}
             </style>
     </head>
     <body>
     
-    
-
-        <h3>환영합니다! 20200362 박상우의 23년도 1학기 시간표</h3>
+        
+        <h3 id="eng">환영합니다! 20200362 박상우의 23년도 1학기 시간표</h3>
+        <button onclick="document.getElementById('eng').innerHTML='WElCOME! 20200362 ParkSangWoo 2023 schedule!' ">변환</button>
+        <button onclick="document.getElementById('eng').innerHTML='환영합니다! 20200362 박상우의 23년도 1학기 시간표' ">되돌리기</button> 
+        <img src="light-bulb_off.png" onmouseover="this.src='light-bulb_on.png'
+        "onmouseout="this.src='light-bulb_off.png'" width="50px" height="50px">
 
     </body>
+    <hr>
     <table>
-        <tr>
+        <tr id='hcolor'>
             <th>시간/요일 </th><th>월요일</th> <th>화요일</th> <th>수요일</th> <th>목요일</th> <th>금요일</th>
         </tr>
         <tr>
             <td>0교시 08:30 ~ 09: 20</td>
-            <td><img src="시계사진.png" width="50" height="50"></td>
-            <td><img src="시계사진.png" width="50" height="50"></td>
-            <td><img src="시계사진.png" width="50" height="50"></td>
-            <td><img src="시계사진.png" width="50" height="50"></td>
-            <td><img src="시계사진.png" width="50" height="50"></td>
+            <td><img onmouseout="this.style.width='50px'" onmouseover="this.style.width='200px'" src="시계사진.png"></td>
+            <td><img onmouseout="this.style.width='50px'" onmouseover="this.style.width='200px'" src="시계사진.png"></td>
+            <td><img onmouseout="this.style.width='50px'" onmouseover="this.style.width='200px'" src="시계사진.png"></td>
+            <td><img onmouseout="this.style.width='50px'" onmouseover="this.style.width='200px'" src="시계사진.png"></td>
+            <td><img onmouseout="this.style.width='50px'" onmouseover="this.style.width='200px'" src="시계사진.png"></td>
 
         </tr>
         <tr>
