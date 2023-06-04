@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+* {padding: 0px; margin: 0px;}
+header,nav,section,footer {border: solid 3px green; margin: 0 auto;}
+header{width: 1300px; height: 200px; margin-top: 10px;}
+
+nav{width: 1300px; height: 50px; margin-top: 10px;}
+/*메인 메뉴+사이드 광고 */
+section{width: 1300px; height: 700px; margin-top: 10px;}
+
+/*메인 메뉴+사이드 광고 끝 */
+footer{width: 1300px; height: 130px; margin-top: 10px}
+.clear {clear:both;}
+#top {border: solid 3px black; float:right; margin-top: 0px;margin-right: 10px; display: inline;}
+#search{position: absolute;border: solid 0px red;width: 350px; margin-top: 15px; display: inline;}
+#dot{position: absolute; margin-right: 10px; display: inline;}
+#can{border: solid 3px black;}
+body div{margin: 0; padding: 0;}
+#logo{border: solid 0px red; width: 200px;height: 200px;right: 750px; bottom: 660px; display: block; margin-left: 500px; margin-bottom: 150px;}
+ul,ol{list-style: none;}
+a{text-decoration: none; color:#fff;font-size: 21px; font-weight: bold;}
+a:visited {text-decoration: none; color: white;}
+a:hover { text-decoration: none; color: orange;}
+/*네비게이션 메뉴 */
+nav{overflow: hidden; height: 80px; background-color: #64c364; margin: 0px auto;}
+#nav1{text-align:center}
+#nav1>ul{display:inline-block}
+#nav1>ul li{float:left;padding:0 15px;line-height:80px}
+
+/*사이드 광고*/
+#ads{position: fixed; width: 200px; height: 400px;}
+#ads2{position: fixed; width: 200px; height: 400px; right: 3px;}
+/*고객문의창*/
+#line{border: solid 2px black; width: 900px; height: 500px; margin-left: 25px; float: left; margin-top: 80px;}
+#color{color: red;}
+input{width: 550px; height: 30px; margin-top: 10px;}
+.ma{margin-left: 20px; margin-top: 15px; margin-bottom: 10px;font-size: 20px; font-weight: bold;}
+select{width: 550px; height: 34px; margin-top: 5px; font-weight: bold; padding-left: 10px; font-size: 15px;}
+textarea{margin-top: 5px;}
+.filebox .upload-name {
+    display: inline-block;
+    height: 40px;
+    padding: 0 10px;
+    vertical-align: middle;
+    border: 1px solid black;
+    width: 420px;
+    color: #999999;
+    margin-left: 20px;
+}
+.filebox label {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    vertical-align: middle;
+    background-color: #999999;
+    cursor: pointer;
+    height: 23px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.filebox input[type="file"] {
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+}
+#ok{border-radius: 5px; border :solid 0px black; width: 100px; height: 26px; background-color: #64c364; color: white; text-align: center; padding-top: 5px; margin-left: 790px; margin-top: 20px; padding-bottom: 25px;}
+#b{float:right; margin-top: 120px; margin-right: 15px;}
+#q{float:inline-start; margin-top: 200px; padding-right: 600px;}
+#te{border: solid 1px white; width: 260px; height: 50px; float: right; margin-right: 60px; text-align: center; font-size: 25px; font-weight: bold;}
+</style>	
+</head>
+<body>
+<header>
+<div id="top">회원가입ㅣ로그인ㅣ수익금정산</div>
+<div id="search"> <input id="can" type="text" name="query" value="" style="width:300px;height:30px;font-size:30px;">
+<a href="https://dict.naver.com/"><img id="dot" src="이미지 자료/돋보기.png" width="30px"></div></a>
+<div id="logo"><img id="free" src="이미지 자료/프리랜서-마켓-로고.png" width="200px" height="200px"></div>
+</header>
+<nav id="nav1">
+    <ul>
+        <li><a href="#">영상</a></li>
+        <li><a href="#">디자인</a></li>
+        <li><a href="#">프로그래밍</a></li>
+        <li><a href="#">번역/통역</a></li>
+        <li><a href="#">마케팅</a></li>
+        <li><a href="#">포트폴리오 제출</a></li>
+        <li><a href="#">커뮤니티</a></li>
+        <li><a href="#">사이트 소개</a></li>
+        <li><a href="#">고객문의</a></li>
+      </ul>
+</nav>
+
+<div class='clear'></div>
+<a href="https://www.pizzahut.co.kr/"><img id="ads" src="이미지 자료/피자 광고.jpg"></a>
+<div class='clear'></div>
+<a href="https://www.pizzahut.co.kr/"><img id="ads2" src="이미지 자료/피자 광고.jpg"></a>
+
+<section>
+
+<div id="line">
+<form>
+  <div class="ma">이메일 주소 <span id="color">*</span><br><input type="text"></div>
+<div class="ma">상담 유형 <span id="color">*</span><br><select><option>불량 정보 및 오류신고</option></select></div>
+<div class="ma">문의내용 <span id="color">*</span><br><textarea rows = "10" cols="76"></textarea></div>
+
+<div class="filebox">
+  <input class="upload-name" value="첨부파일" placeholder="첨부파일">
+  <label for="file">파일찾기</label> 
+  <input type="file" id="file">
+  <input type="submit" value="전송하기" id="ok">
+</div>
+</form>
+</div>
+<img src="이미지 자료/free-icon-customer-service-2662478.png" id="b" width="350" height="280">
+<div></div>
+<div id="te">고객 서비스 전화 상담<br>1234-5678 </div>
+</section>
+
+<footer>
+<a href="https://www.baemin.com/"><img src="이미지 자료/배민 푸터.jpg"></a>
+</footer>
+</body>
+</html>

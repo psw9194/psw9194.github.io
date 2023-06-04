@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+* {padding: 0px; margin: 0px;}
+header,nav,section,footer {border: solid 3px green; margin: 0 auto;}
+header{width: 1300px; height: 200px; margin-top: 10px;}
+
+nav{width: 1300px; height: 50px; margin-top: 10px;}
+/*메인 메뉴+사이드 광고 */
+section{width: 1300px; height: 700px; margin-top: 10px;}
+
+/*메인 메뉴+사이드 광고 끝 */
+footer{width: 1300px; height: 130px; margin-top: 10px}
+.clear {clear:both;}
+#top {border: solid 0px black; float:right; margin-top: 0px;margin-right: 10px; display: inline;}
+#search{position: absolute;border: solid 0px red;width: 350px; margin-top: 15px; display: inline;}
+#dot{position: absolute; margin-right: 10px; display: inline;}
+#can{border: solid 3px black;}
+body div{margin: 0; padding: 0;}
+#logo{border: solid 0px red; width: 200px;height: 200px;right: 750px; bottom: 660px; display: block; margin-left: 560px; margin-bottom: 150px; margin: 0 auto;}
+ul,ol{list-style: none;}
+.navi{text-decoration: none; color:white;font-size: 21px; font-weight: bold;}
+
+/*네비게이션 메뉴 */
+nav{overflow: hidden; height: 80px; background-color: #64c364; margin: 0px auto;}
+#nav1{text-align:center}
+#nav1>ul{display:inline-block}
+#nav1>ul li{float:left;padding:0 15px;line-height:80px}
+
+/*중앙 카테고리 내용*/
+.media_box1{border: solid 3px black; width: 1000px; height: 695px; margin: 0 auto; margin-top: 0px; margin-right: 5px; }
+.media_box2{border: solid 0px red; width: 140px; height: 300px; position: absolute; margin-top: 100px; margin-left: 35px;}
+#media_top{color: black; font-weight: bold; font-size: 20px;}
+.media_img1{float: left; display: block; margin-top: 40px; margin-left: 60px;}
+.media_img2{float: left; display: block; margin-top: 90px; margin-left: 60px; padding-top: 0px;}
+.button{ border: none;
+		border-radius:  10px;
+        width: 150px;
+        height: 40px;
+        padding: 8px;
+        text-align: center;
+		background-color: #64c364;
+		color: white;
+        font-weight: bold;
+        margin-left: 700px; margin-top: 50px;}
+.home1{text-decoration: none; color:black; font-weight: bold;}
+</style>	
+</head>
+<body>
+<header>
+<div id="top"><a class="home1" href="회원가입창.html">회원가입</a>ㅣ<a class="home1" href="로그인창.html">로그인</a>ㅣ<a class="home1" href="수익금정산.html">수익금정산</a></div>
+<div id="search"> <input id="can" type="text" name="query" value="" style="width:300px;height:30px;font-size:30px;">
+<a href="https://dict.naver.com/"><img id="dot" src="이미지 자료/돋보기.png" width="30px"></div></a>
+<div id="logo"><a href="메인화면.html"><img id="free" src="이미지 자료/프리랜서-마켓-로고.png" width="200px" height="200px"></a></div>
+</header>
+<nav id="nav1">
+    <ul>
+      <li><a class="navi" href="카테고리_영상.html">영상</a></li>
+      <li><a class="navi" href="카테고리_디자인.html">디자인</a></li>
+      <li><a class="navi" href="카테고리_프로그래밍.html">프로그래밍</a></li>
+      <li><a class="navi" href="카테고리_번역.html">번역/통역</a></li>
+      <li><a class="navi" href="카테고리_마케팅.html">마케팅</a></li>
+      <li><a class="navi" href="카테고리_포트.html">포트폴리오 제출</a></li>
+      <li><a class="navi" href="카테고리_커뮤니티.html">커뮤니티</a></li>
+      <li><a class="navi" href="카테고리_소개.html">사이트 소개</a></li>
+      <li><a class="navi" href="카테고리_고객.html">고객문의</a></li>
+      </ul>
+</nav>
+
+<div class='clear'></div>
+
+<section>
+<div class="media_box2"><a href="https://www.pizzahut.co.kr/"><img src="이미지 자료/피자 광고.jpg" width="200px" height="500px"></a></div>
+<div class="media_box1">
+  <p id="media_top"><a class="home1" href="메인화면.html">홈</a>>마케팅</p>
+  <div class="media_img1">
+  <a href="마1.html"><img src="이미지 자료/마케팅1.PNG" width="200px" height="200px"></a>
+  <a href="마3.html"><img src="이미지 자료/마케팅3.PNG" width="200px" height="200px"></a>
+  <a href="마4.html"><img src="이미지 자료/마케팅4.PNG" width="200px" height="200px"></a>
+  <a href="마5.html"><img src="이미지 자료/마케팅5.PNG" width="200px" height="200px"></a>
+  </div>
+  <div class="media_img2">
+    <a href="마2.html"><img src="이미지 자료/마케팅2.PNG" width="200px" height="200px"></a>
+    <a href="마8.html"><img src="이미지 자료/마케팅8.PNG" width="200px" height="200px"></a>
+    <a href="마6.html"><img src="이미지 자료/마케팅6.PNG" width="200px" height="200px"></a>
+    <a href="마7.html"><img src="이미지 자료/마케팅7.PNG" width="200px" height="200px"></a>
+</div>
+<div class='clear'></div>
+<div id="connect_box">
+  <button type="button" class="button" ><a class="navi" href="서비스 등록창.html">서비스 등록</a></button>
+  
+  </div> 
+</div>
+
+</section>
+
+<div class='clear'></div>
+<footer>
+<a href="https://www.baemin.com/"><img src="이미지 자료/배민 푸터.jpg"></a>
+</footer>
+</body>
+</html>

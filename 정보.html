@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+* {padding: 0px; margin: 0px;}
+header,nav,section,footer {border: solid 3px green; margin: 0 auto;}
+header{width: 1300px; height: 200px; margin-top: 10px;}
+
+nav{width: 1300px; height: 50px; margin-top: 10px;}
+/*메인 메뉴+사이드 광고 */
+section{width: 1300px; height: 700px; margin-top: 10px;}
+
+/*메인 메뉴+사이드 광고 끝 */
+footer{width: 1300px; height: 130px; margin-top: 10px}
+.clear {clear:both;}
+#top {border: solid 0px black; float:right; margin-top: 0px;margin-right: 10px; display: inline;}
+#search{position: absolute;border: solid 0px red;width: 350px; margin-top: 15px; display: inline;}
+#dot{position: absolute; margin-right: 10px; display: inline;}
+#can{border: solid 3px black;}
+body div{margin: 0; padding: 0;}
+#logo{border: solid 0px red; width: 200px;height: 200px;right: 750px; bottom: 660px; display: block; margin-left: 560px; margin-bottom: 150px; margin: 0 auto;}
+ul,ol{list-style: none;}
+.navi{text-decoration: none; color:white;font-size: 21px; font-weight: bold;}
+
+/*네비게이션 메뉴 */
+nav{overflow: hidden; height: 80px; background-color: #64c364; margin: 0px auto;}
+#nav1{text-align:center}
+#nav1>ul{display:inline-block}
+#nav1>ul li{float:left;padding:0 15px;line-height:80px}
+.home1{text-decoration: none; color:black; font-weight: bold;}
+/*회원가입 로그인 수익금 정산*/
+.home1{text-decoration: none; color:black; font-weight: bold;}
+.money{border: solid 3px black; width: 1000px; height: 250px; margin: 0 auto; margin-top: 50px;}
+.w{font-weight: bold; margin-left: 40px; font-size: 30px; margin-top: 35px;}
+.b{font-weight: bold; font-size: 30px; color: red; margin-left: 80px;}
+.button{ border: none;
+		border-radius:  1px;
+        width: 400px;
+        height: 60px;
+        padding: 8px;
+        text-align: center;
+		background-color: #64c364;
+		color: white;
+        font-weight: bold;
+        margin-left:450px; margin-top: 25px;}
+.tt{border: solid 2px black; width: 1000px; height: 500px; margin: 0 auto; margin-top: 80px;}
+table {border-collapse:collapse;border-top:1px solid black;}
+th,td{border-bottom: 1px solid black;}
+td{text-align: center;}
+table{width: 1000px; height: 500px;}
+.car{width: 130px; height: 160px; border: solid 0px gold; position: absolute; margin-top: 10px;}
+.ccc{font-weight: bold; font-size: 20px; text-align: center;}
+.fff{margin-top: 5px;}
+.kkk{margin-top: 12px; font-weight: bold; text-align: center;}
+.ggr{border: solid 0px gray; width: 400px; height: 70px; margin-left: 150px; position: absolute;}
+#subsearch {
+      display: flex;
+      align-items: center; 
+      justify-content: left; 
+      background-color: rgb(223, 223, 223);
+      width: 280px;
+      margin-top:13px;
+      height: 30px;
+    }
+    #subsearch > input {
+      border: none; background-color: rgb(223, 223, 223);
+    }
+.quest{font-weight: bold; font-size: 25px;}
+.ddd{display: inline;}
+.ads3{position: absolute; margin-left: 15px; margin-top: 30px;}
+</style>	
+</head>
+<body>
+<header>
+  <div id="top"><a class="home1" href="회원가입창.html">회원가입</a>ㅣ<a class="home1" href="로그인창.html">로그인</a>ㅣ<a class="home1" href="수익금정산.html">수익금정산</a></div>
+<div id="search"> <input id="can" type="text" name="query" value="" style="width:300px;height:30px;font-size:30px;">
+<a href="https://dict.naver.com/"><img id="dot" src="이미지 자료/돋보기.png" width="30px"></div></a>
+<div id="logo"><a href="메인화면.html"><img id="free" src="이미지 자료/프리랜서-마켓-로고.png" width="200px" height="200px"></a></div>
+</header>
+<nav id="nav1">
+    <ul>
+      <li><a class="navi" href="카테고리_영상.html">영상</a></li>
+      <li><a class="navi" href="카테고리_디자인.html">디자인</a></li>
+      <li><a class="navi" href="카테고리_프로그래밍.html">프로그래밍</a></li>
+      <li><a class="navi" href="카테고리_번역.html">번역/통역</a></li>
+      <li><a class="navi" href="카테고리_마케팅.html">마케팅</a></li>
+      <li><a class="navi" href="카테고리_포트.html">포트폴리오 제출</a></li>
+      <li><a class="navi" href="카테고리_커뮤니티.html">커뮤니티</a></li>
+      <li><a class="navi" href="카테고리_소개.html">사이트 소개</a></li>
+      <li><a class="navi" href="카테고리_고객.html">고객문의</a></li>
+      </ul>
+</nav>
+
+<div class='clear'></div>
+
+<section>
+<div class="ggr">
+<span id="subsearch">
+  <input type="text" size="33" placeholder="글 검색">
+    <img src="이미지 자료/돋보기.png" width="25" height="25">
+</span>
+<div class="ddd">
+<p class="quest">정보 게시판<img class="que" src="이미지 자료/질문1.png" width="30px" height="30px"></p>
+
+</div>
+</div>
+<div class="car">
+<ul class="fff">
+  <li class="ccc">
+    커뮤니티<img class="que" src="이미지 자료/메뉴1.png" width="30px" height="30px">
+  </li>
+  <a class="home1" href="자유.html"><li class="kkk">
+    자유 게시판
+  </li></a>
+  <a class="home1" href="카테고리_커뮤니티.html"><li class="kkk">
+    질문 게시판
+  </li></a>
+  <a class="home1" href="정보.html"><li class="kkk">
+    정보 게시판
+  </li></a>
+</ul>
+<div class="ads3">
+  <a href="https://m.bbq.co.kr/main.asp"><img src="이미지 자료/치킨 광고.jpg" width="100px" height="400px"></a>
+  </div>
+</div>
+<div class="tt">
+  <table id="board">
+      
+    <tr>
+          <th>번호</th>
+          <th>제목</th>
+          <th>등록일</th>
+          <th>조회수</th>
+    </tr>
+    <tr>
+      <td >156</td>
+      <td>프로그래밍 꿀팁1</td>
+      <td>2023-06-01</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>155</td>
+      <td>마케팅 꿀팁1</td>
+      <td>2023-05-30</td>
+      <td>123</td>
+    </tr>
+    
+    <tr>
+      <td>154</td>
+      <td>영상 편집 프로그램 추천</td>
+      <td>2023-05-29</td>
+      <td>92</td>
+    </tr>
+    <tr>
+      <td>153</td>
+      <td>영상 편집 꿀팁15</td>
+      <td>2023-05-27</td>
+      <td>85</td>
+    </tr>
+    <tr>
+      <td>152</td>
+      <td>영상편집 단축키 모음</td>
+      <td>2023-05-27</td>
+      <td>121</td>
+    </tr>
+    <tr>
+      <td>151</td>
+      <td>영상페이 관련 질문입니다.</td>
+      <td>2023-05-25</td>
+      <td>182</td>
+    </tr>
+    <tr>
+      <td>150</td>
+      <td>이거 어떻게 해요?</td>
+      <td>2023-05-24</td>
+      <td>252</td>
+    </tr>
+    <tr>
+      <td>149</td>
+      <td>질문입니다</td>
+      <td>2023-05-23</td>
+      <td>285</td>
+    </tr>
+    <tr>
+      <td>148</td>
+      <td>포트폴리오 관련 질문</td>
+      <td>2023-05-22</td>
+      <td>142</td>
+    </tr>
+  </table>
+</div>
+
+</section>
+
+<div class='clear'></div>
+<footer>
+<a href="https://www.baemin.com/"><img src="이미지 자료/배민 푸터.jpg"></a>
+</footer>
+</body>
+</html>

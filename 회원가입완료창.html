@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+* {padding: 0px; margin: 0px;}
+header,nav,section,footer {border: solid 3px green; margin: 0 auto;}
+header{width: 1300px; height: 200px; margin-top: 10px;}
+
+nav{width: 1300px; height: 50px; margin-top: 10px;}
+/*메인 메뉴+사이드 광고 */
+section{width: 1300px; height: 700px; margin-top: 10px;}
+
+/*메인 메뉴+사이드 광고 끝 */
+footer{width: 1300px; height: 130px; margin-top: 10px}
+.clear {clear:both;}
+#top {border: solid 0px black; float:right; margin-top: 0px;margin-right: 10px; display: inline;}
+#search{position: absolute;border: solid 0px red;width: 350px; margin-top: 15px; display: inline;}
+#dot{position: absolute; margin-right: 10px; display: inline;}
+#can{border: solid 3px black;}
+body div{margin: 0; padding: 0;}
+#logo{border: solid 0px red; width: 200px;height: 200px;right: 750px; bottom: 660px; display: block; margin-left: 500px; margin-bottom: 150px;}
+ul,ol{list-style: none;}
+a{text-decoration: none; color:#fff;font-size: 21px; font-weight: bold;}
+a:visited {text-decoration: none; color: white;}
+a:hover { text-decoration: none; color: orange;}
+/*네비게이션 메뉴 */
+nav{overflow: hidden; height: 80px; background-color: #64c364; margin: 0px auto;}
+#nav1{text-align:center}
+#nav1>ul{display:inline-block}
+#nav1>ul li{float:left;padding:0 15px;line-height:80px}
+
+/*사이드 광고*/
+#ads{position: fixed; width: 200px; height: 400px;}
+#ads2{position: fixed; width: 200px; height: 400px; right: 3px;}
+/*로그인창*/
+#line{border: solid 2px black; width: 1250px; height: 500px; margin-left: 25px;}
+#com{font-size: 27px; border: solid 1px white; width: 210px; margin-left: 510px; margin-top: 150px; border-collapse: collapse; font-weight: bold;}
+#ok{border: solid 1px black; width: 100px; height: 26px; background-color: #64c364; color: white; text-align: center; padding-top: 5px; margin-left: 550px; margin-top: 20px; padding-bottom: 25px;}
+</style>	
+</head>
+<body>
+<header>
+<div id="top">회원가입ㅣ로그인ㅣ수익금정산</div>
+<div id="search"> <input id="can" type="text" name="query" value="" style="width:300px;height:30px;font-size:30px;">
+<a href="https://dict.naver.com/"><img id="dot" src="이미지 자료/돋보기.png" width="30px"></div></a>
+<div id="logo"><a href="메인화면.html"><img id="free" src="이미지 자료/프리랜서-마켓-로고.png" width="200px" height="200px"></a></div>
+</header>
+<nav id="nav1">
+    <ul>
+      <li><a class="navi" href="카테고리_영상.html">영상</a></li>
+      <li><a class="navi" href="카테고리_디자인.html">디자인</a></li>
+      <li><a class="navi" href="카테고리_프로그래밍.html">프로그래밍</a></li>
+      <li><a class="navi" href="카테고리_번역.html">번역/통역</a></li>
+      <li><a class="navi" href="카테고리_마케팅.html">마케팅</a></li>
+      <li><a class="navi" href="카테고리_포트.html">포트폴리오 제출</a></li>
+      <li><a class="navi" href="카테고리_커뮤니티.html">커뮤니티</a></li>
+      <li><a class="navi" href="카테고리_소개.html">사이트 소개</a></li>
+      <li><a class="navi" href="카테고리_고객.html">고객문의</a></li>
+      </ul>
+</nav>
+
+<div class='clear'></div>
+<a href="https://www.pizzahut.co.kr/"><img id="ads" src="이미지 자료/피자 광고.jpg"></a>
+<div class='clear'></div>
+<a href="https://www.pizzahut.co.kr/"><img id="ads2" src="이미지 자료/피자 광고.jpg"></a>
+
+<section>
+  <br><br><br>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>회원가입</b>
+<div id="line">
+<div id="com">
+  회원가입 완료!
+</div>
+<form action="메인화면.html">
+<div>
+  <input type="submit" value="로그인" id="ok">
+</div>
+</form>
+</div>
+</section>
+
+<div class='clear'></div>
+<footer>
+<a href="https://www.baemin.com/"><img src="이미지 자료/배민 푸터.jpg"></a>
+</footer>
+</body>
+</html>

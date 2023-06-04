@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset='utf-8'>
+ <style>
+    * {padding: 0px; margin: 0px;}
+header,nav,section,footer {border: solid 3px green; margin: 0 auto;}
+header{width: 1300px; height: 200px; margin-top: 10px;}
+
+nav{width: 1300px; height: 50px; margin-top: 10px;}
+
+h3{padding-top: 30px; padding-left: 110px;}
+/*메인 메뉴+사이드 광고 */
+section{width: 1300px; height: 350px; margin-top: 10px;}
+
+/*메인 메뉴+사이드 광고 끝 */
+footer{width: 1300px; height: 130px; margin-top: 10px}
+.clear {clear:both;}
+#top {border: solid 0px black; float:right; margin-top: 0px;margin-right: 10px; display: inline;}
+#search{position: absolute;border: solid 0px red;width: 350px; margin-top: 15px; display: inline;}
+#dot{position: absolute; margin-right: 10px; display: inline;}
+#can{border: solid 3px black;}
+body div{margin: 0; padding: 0;}
+#logo{border: solid 0px red; width: 200px;height: 200px;right: 750px; bottom: 660px; display: block; margin-left: 500px; margin-bottom: 150px;}
+ul,ol{list-style: none;}
+a{text-decoration: none; color:#fff;font-size: 21px; font-weight: bold;}
+.home1{text-decoration: none; color:black; font-weight: bold;}
+
+
+/*네비게이션 메뉴 */
+nav{overflow: hidden; height: 80px; background-color: #64c364; margin: 0px auto;}
+#nav1{text-align:center}
+#nav1>ul{display:inline-block}
+#nav1>ul li{float:left;padding:0 15px;line-height:80px}
+
+/*창 */
+.button{border: none;
+		border:  10px;
+        width: 150px;
+        height: 40px;
+        padding: 8px;
+        text-align: center;
+		background-color: #64c364;
+		color: white;
+        font-weight: bold;
+        margin-left: 1100px; margin-top: 10px;}
+ </style>   
+</head>
+<body>
+    <header>
+        <div id="top"><a class="home1" href="회원가입창.html">회원가입</a>ㅣ<a class="home1" href="로그인창.html">로그인</a>ㅣ<a class="home1" href="수익금정산.html">수익금정산</a></div>
+        <div id="search"> <input id="can" type="text" name="query" value="" style="width:300px;height:30px;font-size:30px;">
+        <a href="https://dict.naver.com/"><img id="dot" src="이미지 자료/돋보기.png" width="30px"></div></a>
+        <div id="logo"><a href="전체틀 수정.html"><img id="free" src="이미지 자료/프리랜서-마켓-로고.png" width="200px" height="200px"></a></div>
+    </header>
+    <nav id="nav1">
+        <ul>
+            <li><a class="navi" href="카테고리_영상.html">영상</a></li>
+            <li><a class="navi" href="카테고리_디자인.html">디자인</a></li>
+            <li><a class="navi" href="카테고리_프로그래밍.html">프로그래밍</a></li>
+            <li><a class="navi" href="카테고리_번역.html">번역/통역</a></li>
+            <li><a class="navi" href="카테고리_마케팅.html">마케팅</a></li>
+            <li><a class="navi" href="카테고리_포트.html">포트폴리오 제출</a></li>
+            <li><a class="navi" href="카테고리_커뮤니티.html">커뮤니티</a></li>
+            <li><a class="navi" href="카테고리_소개.html">사이트 소개</a></li>
+            <li><a class="navi" href="카테고리_고객.html">고객문의</a></li>
+    </nav>
+    
+    <section>
+        <form action="메인화면.html">
+            <h4>나의 포트폴리오</h4>
+            이름&nbsp;&nbsp;&nbsp;&nbsp;<input type='text'><br>
+            성별&nbsp;&nbsp;&nbsp;&nbsp;<input type='radio' name='info'>남성
+            <input type='radio' name='info'>여성<br>
+            생년월일&nbsp;&nbsp;&nbsp;&nbsp;<input type='text'><br>
+            전문분야 및 상세분야&nbsp;&nbsp;&nbsp;&nbsp;<input type='text'><br>
+            보유기술<input type='text'><br>
+            작업물 파일 첨부<input type='file'><br>
+            경력사항 <select>
+                    <option>총경력기간</option>
+                    <option>1년 이내</option>
+                    <option>2년 이내</option>
+                    <option>3년 이내</option>
+                    <option>4년 이상</option>
+
+                    </select>
+                    <input type='text'><br>
+            학력/자격증<input type='text'><br>
+            희망급여<input type='text'>원 &nbsp;&nbsp;협의가능<input type='checkbox'><br>
+            상주 가능 정보(필수) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='radio' name='info'>가능&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type='radio' name='info'>불가
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="button" onclick="alert('저장되었습니다.')" class="button">저장하기</button>
+        </form>
+    </section>
+    <div class='clear'></div>
+    <footer>
+    <a href="https://www.baemin.com/"><img src="이미지 자료/배민 푸터.jpg"></a>
+    </footer>
+    </body>
+</body>
+</html>

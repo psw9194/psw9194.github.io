@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+* {padding: 0px; margin: 0px;}
+header,nav,section,footer {border: solid 3px green; margin: 0 auto;}
+header{width: 1300px; height: 200px; margin-top: 10px;}
+
+nav{width: 1300px; height: 50px; margin-top: 10px;}
+/*메인 메뉴+사이드 광고 */
+section{width: 1300px; height: 700px; margin-top: 10px;}
+
+/*메인 메뉴+사이드 광고 끝 */
+footer{width: 1300px; height: 130px; margin-top: 10px}
+.clear {clear:both;}
+#top {border: solid 0px black; float:right; margin-top: 0px;margin-right: 10px; display: inline;}
+#search{position: absolute;border: solid 0px red;width: 350px; margin-top: 15px; display: inline;}
+#dot{position: absolute; margin-right: 10px; display: inline;}
+#can{border: solid 3px black;}
+body div{margin: 0; padding: 0;}
+#logo{border: solid 0px red; width: 200px;height: 200px;right: 750px; bottom: 660px; display: block; margin-left: 560px; margin-bottom: 150px; margin: 0 auto;}
+ul,ol{list-style: none;}
+.navi{text-decoration: none; color:white;font-size: 21px; font-weight: bold;}
+
+/*네비게이션 메뉴 */
+nav{overflow: hidden; height: 80px; background-color: #64c364; margin: 0px auto;}
+#nav1{text-align:center}
+#nav1>ul{display:inline-block}
+#nav1>ul li{float:left;padding:0 15px;line-height:80px}
+
+/*회원가입 로그인 수익금 정산*/
+.home1{text-decoration: none; color:black; font-weight: bold;}
+.money{border: solid 3px black; width: 1000px; height: 250px; margin: 0 auto; margin-top: 50px;}
+.w{font-weight: bold; margin-left: 40px; font-size: 30px; margin-top: 35px;}
+.b{font-weight: bold; font-size: 30px; color: red; margin-left: 80px;}
+.button{ border: none;
+		border-radius:  1px;
+        width: 400px;
+        height: 60px;
+        padding: 8px;
+        text-align: center;
+		background-color: #64c364;
+		color: white;
+        font-weight: bold;
+        margin-left:450px; margin-top: 25px;}
+.s{font-weight: bold; font-size: 20px; margin-top: 0;}
+</style>	
+</head>
+<body>
+<header>
+<div id="top"><a class="home1" href="#">회원가입</a>ㅣ<a class="home1" href="#">로그인</a>ㅣ<a class="home1" href="#">수익금정산</a></div>
+<div id="search"> <input id="can" type="text" name="query" value="" style="width:300px;height:30px;font-size:30px;">
+<a href="https://dict.naver.com/"><img id="dot" src="이미지 자료/돋보기.png" width="30px"></div></a>
+<div id="logo"><a href="메인화면.html"><img id="free" src="이미지 자료/프리랜서-마켓-로고.png" width="200px" height="200px"></a></div>
+</header>
+<nav id="nav1">
+    <ul>
+      <li><a class="navi" href="카테고리_영상.html">영상</a></li>
+      <li><a class="navi" href="카테고리_디자인.html">디자인</a></li>
+      <li><a class="navi" href="카테고리_프로그래밍.html">프로그래밍</a></li>
+      <li><a class="navi" href="카테고리_번역.html">번역/통역</a></li>
+      <li><a class="navi" href="카테고리_마케팅.html">마케팅</a></li>
+      <li><a class="navi" href="카테고리_포트.html">포트폴리오 제출</a></li>
+      <li><a class="navi" href="카테고리_커뮤니티.html">커뮤니티</a></li>
+      <li><a class="navi" href="카테고리_소개.html">사이트 소개</a></li>
+      <li><a class="navi" href="카테고리_고객.html">고객문의</a></li>
+      </ul>
+</nav>
+
+<div class='clear'></div>
+
+<section>
+<div class="s">수익금 관리 및 정산</div>
+<div class="money">
+<div class="w">
+<p>출금 가능 금액 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 이번달 총 수익금 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 출금 완료 금액</p>
+</div>
+<br>
+<div class="b">
+  <p>50,000원 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;550,000원 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 500,000원</p>
+  </div>
+</div>
+<div>
+  <button type="button"onclick="alert('출금 신청 완료')" class="button" ><a class="navi" href="메인화면.html">안전 출금 신청</a></button>
+</div>
+</section>
+
+<div class='clear'></div>
+<footer>
+<a href="https://www.baemin.com/"><img src="이미지 자료/배민 푸터.jpg"></a>
+</footer>
+</body>
+</html>
